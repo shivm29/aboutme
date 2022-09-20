@@ -297,6 +297,10 @@ hr{
 
 }
 
+.content-container{
+    display: block;
+}
+
 @media (max-width: 1145px) {
     .sec-1{
         flex-direction: column;
@@ -388,7 +392,7 @@ hr{
 @media (max-width: 700px) {
 
     body{
-        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.093)
+        background-image: linear-gradient(to bottom,#4c566a73
         , black
         );
     }
@@ -400,6 +404,7 @@ hr{
     .intro{
         align-items: center;
         justify-content: center;
+        font-size: 25px;
     }
 
     .sec-1{
@@ -419,6 +424,7 @@ hr{
         min-width: none;
         max-width: none;
         width: fit-content;
+        font-size: 15px;
     }
 
     .main-container{
@@ -426,7 +432,22 @@ hr{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        font-size: 15px;
     }
+
+    .work-container{
+        font-size: 15px;
+    }
+
+    .others-content{
+        font-size: 15px;
+    }
+
+    .project{
+        font-size: 20px;
+    }
+
+
 }
 
 .project{
