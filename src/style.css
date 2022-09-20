@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+
+body{
+   background-color: black;
+   background-image: url('images/background\(1\).jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   
+}
+
+.under-style{
+    line-height: 40px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 4px;
+}
+
+
+
+.intro{
+    height: 100px;
+    color: rgba(255, 255, 255, 0.537);
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 40px;
+    margin: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 30px;
+    font-family:monospace;
+    font-weight: 700;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.032) , transparent);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.intro:hover{
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.058) , transparent)
+    
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.723);
+}
+
+.sec-1{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  align-items: center;
+  /* justify-content: flex-end; */
+  height: fit-content;
+  padding-right: 200px;
+  /* flex-wrap: wrap; */
+}
+
+.boldit{
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.847);
+}
+
+.bio-container{
+    
+    
+    background-color: rgba(255, 255, 255, 0.042);
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 40px;
+    color: rgba(255, 255, 255, 0.61);
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    height: 90vh;
+    min-width: 400px;  
+    cursor: pointer;
+    margin: 0 30px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    transition: .3s;
+
+}
+
+.bio-headings{
+    line-height: 48px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.main-container{
+    min-height: 90vh;
+    height: fit-content;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.042) , transparent);
+    min-width: 55%;
+    color: rgba(255, 255, 255, 0.537);
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 0 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.bio-container:hover{
+    background-color: rgba(255, 255, 255, 0.058);
+
+}
+
+.work-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.058) , transparent);
+    min-height: 100px;
+    height: fit-content;
+    width: 70%;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 40px;
+    color: rgba(255, 255, 255, 0.61);
+    /* font-family: 'Sora', sans-serif; */
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    flex-direction: column;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.work-container:hover{
+    background-color: rgba(255, 255, 255, 0.058);
+}
+
+.work-container h1{
+    align-self: flex-start;
+    line-height: 40px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 4px;
+}
+
+.project-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.058) , transparent);
+    min-height: 100px;
+    height: fit-content;
+    width: 70%;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 40px;
+    color: rgba(255, 255, 255, 0.61);
+    /* font-family: 'Sora', sans-serif; */
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.project-container h1{
+    align-self: flex-start;
+    font-size: 30px;
+    line-height: 40px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 4px;
+    margin-bottom: 10px;
+}
+
+.projects{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+}
+
+.others{
+    display: flex;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color:  rgba(255, 255, 255, 0.048);
+    width: 58%;
+    min-height: 450px;
+    justify-content: flex-start;
+    height: fit-content;
+    border-radius: 15px;
+    flex-direction: column;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.others h1{
+    font-size: 20px;
+}
+
+.project{
+    display: flex;
+    height: 100px;
+    width: 90%;
+    margin: 10px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.058) , transparent);
+    border-radius: 15px;
+    align-items: center;
+    padding: 20px;
+    transition: .3s;
+
+}
+
+.projects-heading{
+   width: 70%;
+   padding: 0px 30px;
+   align-self: flex-end;
+    
+}
+
+
+.projects-heading h1{
+    align-self: flex-start;
+    font-size: 30px;
+    line-height: 40px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 4px;
+    font-family: monospace;
+}
+.heading-container h1{
+    align-self: flex-start;
+    font-size: 30px;
+    line-height: 40px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 4px;
+    font-family: monospace;
+}
+
+.heading-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    height: fit-content;
+    width: 70%;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 40px;
+    color: rgba(255, 255, 255, 0.61);
+    /* font-family: 'Sora', sans-serif; */
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    flex-direction: column;
+}
+
+.others-heading{
+    display: flex;
+    /* margin: auto; */
+}
+
+
+
+.others-content{
+    display: flex;
+    /* margin: auto; */
+}
+
+
+.project:hover{
+    background-color: rgba(255, 255, 255, 0.058);
+}
+
+.others:hover{
+    background-color: rgba(255, 255, 255, 0.058);
+
+}
+
+@media (max-width: 1145px) {
+    .sec-1{
+        flex-direction: column;
+    }
+
+    
+
+    .main-container{
+        width: 90%;
+        margin: auto;
+        
+    }
+
+   
+   .bio-container{
+    width: 60%;
+    height: fit-content;
+    margin: 10px 42px;
+    align-self: flex-end;
+    background-color: transparent;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.058) , transparent);
+   }
+    
+}
+
+
+@media (max-width: 840px) {
+
+    .main-container{
+        width: 100%;
+    }
+
+    .work-container{
+        width: 90%;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .heading-container{
+        width: 90%;
+    }
+
+    .project-container{
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .projects{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .project{
+        width: 95%;
+        font-size: 25px;
+    }
+
+    .others{
+        width: 100%;
+        font-size: 20px;
+        line-height: 28px;
+        background-image: linear-gradient(to left, rgba(255, 255, 255, 0.058) , transparent);
+        background-color: transparent;
+    }
+
+    .others h1{
+        font-size: 35px;
+    }
+
+    .future{
+        margin-right: 10px;
+
+    }
+
+    .intro{
+        font-size: 35px;
+    }
+
+    .bio-container{
+        width: 90%;
+        margin: 10px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+
+}
+
+@media (max-width: 700px) {
+    .work-container{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .project{
+        font-size: 22px;
+    }
+    .others h1{
+        font-size: 35px;
+        background-color: transparent;
+    }
+    .others{
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
