@@ -390,6 +390,7 @@ a{
     .work-container{
         font-size: 15px;
         line-height: 28px;
+        width: 95%;
     }
     .project{
         font-size: 22px;
@@ -401,6 +402,7 @@ a{
     .others{
         font-size: 15px;
         line-height: 28px;
+        width: 100%;
     }
 
     .bio-container{
