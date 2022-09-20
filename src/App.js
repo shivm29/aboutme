@@ -11,32 +11,28 @@ function App() {
     
     
     <div className="bio-container">
+      
+      <div className="content-container">
       <h1 className="under-style bio-headings">#Bio</h1>
-      2019 Completed Class 10th
-      <hr />
-      {/* <br /> */}
-      2021 Completed Class 12th
-      <hr />
-      {/* <br /> */}
-      Aug 2022 Completed 1st Iteration of Data Structures & Algorithms
-      <hr />
-      {/* <br /> */}
-      Aug 2022 Code Help Phase One
-      <hr />
-      {/* <br /> */}
-      Aug 2022 Code Help Phase Two
-      <hr />
-      {/* <br /> */}
-      Sept 2022 Started Web Development
-      <hr />
-      {/* <br /> */}
+      <span className="boldit">2019</span> Completed Class 10th
+      <br />
+      <span className="boldit">2021</span> Completed Class 12th
+      <br />
+      <span className="boldit">Aug 2022</span> Completed 1st Iteration of Data Structures & Algorithms
+      <br />
+      <span className="boldit">Aug 2022</span> Code Help Phase One
+      <br />
+      <span className="boldit">Aug 2022</span> Code Help Phase Two
+      <br />
+      <span className="boldit">Sept 2022</span> Started Web Development
+      
 
       <h1 className="under-style bio-headings">#I🤍</h1>
       Spirituality, Football, Anime & Books
 
       <h1 className="under-style bio-headings">#OnTheWeb</h1>
       Instagram LinkedIn Github
-
+      </div>
     
     </div>
 
