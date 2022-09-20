@@ -5,7 +5,7 @@ function App() {
   return (
     <>
     
-    <section className="intro">Hey there! I'm Shivam aka POMTY</section>
+    <section className="intro">Hey there! I'm Shivam</section>
     
     <div className="sec-1">
     
@@ -47,10 +47,14 @@ function App() {
 
       <div className="project-container">
       <div className="projects">
-        <div className="project"><a href="https://shivm29.github.io/skye/">Ecommerce</a></div>
-        <div className="project"><a href="https://vermillion-mermaid-44c887.netlify.app/">Todo List</a></div>
-        <div className="project"><a href="https://shivm29.github.io/linkedinclone/">LinkedIn Clone</a></div>
-        <div className="project">Restronaunt</div>
+      
+        <a href="https://vermillion-mermaid-44c887.netlify.app/"><div className="project">Todo List</div></a>
+        <a href="https://shivm29.github.io/skye/"><div className="project">Ecommerce Website</div></a>
+
+        <a href="https://restro-wine.vercel.app/"><div className="project">Restro</div></a>
+        
+        <a href="https://shivm29.github.io/linkedinclone/"><div className="project">LinkedIn Clone</div></a>
+        
       </div>
       <div className="others">
         <h1>Code-Help</h1>
