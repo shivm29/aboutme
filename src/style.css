@@ -12,6 +12,7 @@
 body{
    background-color: black;
    background-image: url('images/background\(1\).jpg');
+   /* background-image: linear-gradient(to right, #4c566a73 , transparent); */
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
@@ -392,9 +393,11 @@ hr{
 @media (max-width: 700px) {
 
     body{
-        background-image: linear-gradient(to bottom,#4c566a73
+        /* background-image: linear-gradient(to bottom,#4c566a73
         , black
-        );
+        ); */
+        background-image: url('images/background\(1\).jpg');
+        
     }
 
     hr{
@@ -424,7 +427,8 @@ hr{
         min-width: none;
         max-width: none;
         width: fit-content;
-        font-size: 15px;
+        font-size: 12px;
+        line-height: 20px;
     }
 
     .main-container{
@@ -436,15 +440,16 @@ hr{
     }
 
     .work-container{
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .others-content{
-        font-size: 15px;
+        font-size: 12px;
+        line-height: 20px;
     }
 
     .project{
-        font-size: 20px;
+        font-size: 15px;
     }
 
 
