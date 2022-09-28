@@ -397,7 +397,9 @@ hr{
         , black
         ); */
         background-image: url('images/background\(1\).jpg');
-        
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     hr{
