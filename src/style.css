@@ -392,14 +392,9 @@ hr{
 
 @media (max-width: 700px) {
 
-    body{
-        /* background-image: linear-gradient(to bottom,#4c566a73
-        , black
-        ); */
-        background-image: url('images/background\(1\).jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
+     body{
+        background-color: black;
+        background-image: none;
     }
 
     hr{
